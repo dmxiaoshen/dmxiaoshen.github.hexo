@@ -5,11 +5,11 @@ tags: [植物, 美图]
 ---
 ##1.泽兰
 ![泽兰](http://i1153.photobucket.com/albums/p501/dmxiaoshen/hexo/bk_476c4ec135f93c9c27f4c5904acaeba0_u6GBHF_zps86b90311.jpg)
+<!-- more -->
 
 -----------------------------------------------
 ##2.山桐子　　
 ![山桐子](http://i1153.photobucket.com/albums/p501/dmxiaoshen/hexo/20130121_145512_400213363_zps9e3909ad.jpg)
-<!-- more -->
 
 -----------------------------------------------
 ##3.白英　　
