@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial
+END
+head.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/head.ejs
+END
+google_analytics.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/google_analytics.ejs
+END
+archive.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/archive.ejs
+END
+article.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/article.ejs
+END
+baidu_tongji.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/baidu_tongji.ejs
+END
+pagination.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/pagination.ejs
+END
+footer.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/footer.ejs
+END
+sidebar.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/sidebar.ejs
+END
+header.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/header.ejs
+END
+after_footer.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/after_footer.ejs
+END
+comment.ejs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dmxiaoshen/!svn/ver/3/trunk/hexo/themes/diasy/layout/_partial/comment.ejs
+END
