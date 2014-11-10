@@ -56,7 +56,7 @@ h6 ###### 六级标题
 效果  <http://www.baidu.com/>
 
 ###一般写法  
-`[github](http://www.baidu.com/ "百度一下")`  
+`[百度一下](http://www.baidu.com/ "百度一下")`  
 效果  [百度一下](http://www.baidu.com/ "百度一下")  
 
 ###图片  
