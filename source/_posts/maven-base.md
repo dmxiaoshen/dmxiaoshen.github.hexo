@@ -16,6 +16,7 @@ Maven能够很方便的帮你管理项目报告，生成站点，管理JAR文件
 ##安装  
 本地需要jdk环境，下载maven的zip包到本地，解压文件。例如：**E:\apache-maven-3.1.1**   
 配置环境变量：  
+<!--more-->
 
 * 新建变量**MAVEN_HOME**,值设为zip包的解压路径，如：**E:\apache-maven-3.1.1**   
 * 修改**PATH**变量，增加**%MAVEN_HOME%\bin**  
