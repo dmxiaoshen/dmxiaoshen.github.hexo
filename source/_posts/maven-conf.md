@@ -16,7 +16,7 @@ tags: [maven, 配置]
 
 ##远程仓库  
 maven的默认中央仓库：  
-```
+```xml
  <repositories>  
   <repository>  
     <id> central</id>  
@@ -32,7 +32,7 @@ maven的默认中央仓库：
 
 如果觉得默认中央仓库很慢，想配置其他远程仓库，比如[开源中国的maven库][1]。  
 修改**setting.xml**文件：  
-```
+```xml
  <mirrors>
   <!-- mirror | Specifies a repository mirror site to use instead of a given
   repository. The repository that | this mirror serves has an ID that matches
@@ -48,7 +48,7 @@ maven的默认中央仓库：
 ```  
 
 **补充：**如果还需要osc的thirdparty仓库或多个仓库，需要如下修改:  
-```
+```xml
  <mirrors>
   <!-- mirror | Specifies a repository mirror site to use instead of a given
    repository. The repository that | this mirror serves has an ID that matches
@@ -109,7 +109,7 @@ maven的默认中央仓库：
 ```
 
 当然也可以给每个项目单独配置仓库，需在项目的pom.xml文件中配置，如：  
-```
+```xml
 <project>
   ...
   <repositories>
