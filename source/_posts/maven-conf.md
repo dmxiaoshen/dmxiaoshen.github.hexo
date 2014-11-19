@@ -13,7 +13,7 @@ tags: [maven, 配置]
 2. 把maven安装目录/conf/settings.xml文件复制一份到第一步建立的文件夹下。  
 3. 修改F:/repository/settings.xml,加入`<localRepository>F:\repository</localRepository>`。
 
-
+<!--more-->
 ##远程仓库  
 maven的默认中央仓库：  
 ```xml
