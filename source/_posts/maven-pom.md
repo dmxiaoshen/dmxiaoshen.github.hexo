@@ -63,7 +63,6 @@ tags: [maven, pom]
 
 ```xml
   <dependencies>
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -72,34 +71,19 @@ tags: [maven, pom]
       <scope>test</scope>
       <optional>true</optional>
     </dependency>
-
- 
-
     <dependency>
-
         <groupId>com.alibaba.china.shared</groupId>
-
         <artifactId>alibaba.apollo.webx</artifactId>
-
         <version>2.5.0</version>
-
         <exclusions>
-
           <exclusion>
-
             <artifactId>org.slf4j.slf4j-api</artifactId>
-
             <groupId>com.alibaba.external</groupId>
-
           </exclusion>
-
           ....
-
         </exclusions>
-
     </dependency>
 ......
-
 </dependencies>
 ```
 
@@ -155,16 +139,11 @@ modules例子如下:
 ##properties  
 
 定义方式如下：  
-
 ```xml
  <properties>
-
    <file.encoding>UTF-8</file_encoding>
-
    <java.source.version>1.5</java_source_version>
-
    <java.target.version>1.5</java_target_version>
-
  </properties>
 ```
 
