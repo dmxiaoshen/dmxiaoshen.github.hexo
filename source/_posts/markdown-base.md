@@ -4,7 +4,7 @@ categories: hexo
 tags: [markdown]
 ---
 
-##标题  
+##<span id="jump">标题</span>  
 ```bash
 h1 # 标题 也可以是文字下面加=======  
 h2 ## 二级标题 也可以是文字下面加-------（如果上面是空行则变分割线）  
@@ -93,7 +93,14 @@ h6 ###### 六级标题
 
  [^hello]: 这是一个脚注
 
+ 文内跳转:  
+ [点击跳转](#jump)  
+
+ <span id="jump">跳转到这里</span>
+
 ``` 
+
+[回到文首](#jump)
 
 [1]: https://github.com/ "github"  
 [2]: http://www.oschina.net/ "开源中国"  
