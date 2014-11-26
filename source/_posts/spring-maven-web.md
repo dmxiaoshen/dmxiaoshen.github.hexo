@@ -641,6 +641,19 @@ jar包的引进，还有就是环境的选择(dev,production,test)。
 </project>
 ```
 
+需要在pom.xml同级目录下创建profile.dev.properties，profile.test.properties，profile.production.properties三个文件，其中内容如下，  
+以profile.dev.properties为例：  
+
+```properties
+log.level=DEBUG
+log.file=F:/dev/examples.log
+
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://127.0.0.1:3306/examplesdev
+jdbc.username=root
+jdbc.password=root
+```
+
 ##总结  
 
 以上就是对整个项目的配置文件的分析，maven打包的时候加上不同的参数就会连接不同的数据库，以及在不同位置产生日志文件。如：  
