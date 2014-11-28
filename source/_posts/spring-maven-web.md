@@ -64,8 +64,10 @@ tags: [spring, 项目]
 				<prop key="hibernate.current_session_context_class">
 					org.springframework.orm.hibernate4.SpringSessionContext
 				</prop>					
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
 				<prop key="hibernate.show_sql">true</prop>
-				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.use_sql_comments">false</prop>
 			</props>
 		</property>
 		<!-- 动态表名映射相关 -->
