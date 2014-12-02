@@ -560,7 +560,8 @@ BASE_REPO可以是本地，也可以是远程的。repository元素就是声明�
 激活profile的方法有多个：setting文件的activeProfile元素明确指定激活的profile的ID，在命令行上明确激活Profile用-P flag 参数 
 查看某个build会激活的profile列表可以用：`mvn help:active-profiles`
 
-参考网址：<http://blog.csdn.net/zhuxinhua/article/details/5788546>
+参考网址：<http://blog.csdn.net/zhuxinhua/article/details/5788546>  
+补充: <http://liugang594.iteye.com/blog/1687781>
 
 
 

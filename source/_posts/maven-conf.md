@@ -119,12 +119,12 @@ maven的默认中央仓库：
       <url>http://repository.jboss.com/maven2/</url>
       <releases>
         <enabled>true</enabled>
-      </releases>
-    </repository>
-    <snapshots>
+      </releases>   
+     <snapshots>
       <enabled>false</enabled>
-    </snapshots>
-    <layout>default</layout>
+     </snapshots>
+     <layout>default</layout>
+    </repository>
   </repositories>
   ...
 </project>
