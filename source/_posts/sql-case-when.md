@@ -33,7 +33,7 @@ from employee;
 
 ##与sum函数结合使用
 
-**问题:如何统计employee表男员工和女员工的数量? **  
+**问题:如何统计employee表男员工和女员工的数量?**  
 
 ```sql
 select sum(case sex when '1' then 1 else 0 end) as '男员工数量' ,
