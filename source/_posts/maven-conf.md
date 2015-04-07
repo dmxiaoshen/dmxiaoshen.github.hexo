@@ -1,6 +1,6 @@
 title: maven简单配置
 date: 2014-11-18 21:17:11
-categories: maven
+categories: 笔记
 tags: [maven, 配置]
 ---
 

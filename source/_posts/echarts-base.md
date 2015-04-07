@@ -1,6 +1,6 @@
 title: ECharts图表入门级使用
 date: 2014-12-15 13:17:11
-categories: web
+categories: 笔记
 tags: [ECharts]
 ---
 

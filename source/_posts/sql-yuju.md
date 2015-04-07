@@ -1,6 +1,6 @@
 title: sql常用语句
 date: 2014-11-20 16:17:11
-categories: sql
+categories: 笔记
 tags: [sql语句]
 ---
 

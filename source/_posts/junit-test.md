@@ -1,6 +1,6 @@
 title: Spring结合JUnit4进行单元测试
 date: 2014-12-21 13:17:11
-categories: web
+categories: 笔记
 tags: [JUnit]
 ---
 

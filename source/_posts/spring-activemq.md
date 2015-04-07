@@ -1,6 +1,6 @@
 title: Spring与ActiveMQ的整合
 date: 2015-01-13 13:32:18
-categories: web
+categories: 笔记
 tags: [activemq]
 ---
 

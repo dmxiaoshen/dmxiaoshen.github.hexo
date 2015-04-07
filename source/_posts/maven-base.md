@@ -1,6 +1,6 @@
 title: maven基础用法
 date: 2014-11-03 21:17:11
-categories: maven
+categories: 笔记
 tags: [maven]
 ---
 

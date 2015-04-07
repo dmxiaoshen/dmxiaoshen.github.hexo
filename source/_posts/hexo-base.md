@@ -1,6 +1,6 @@
 title: Hexo博客简单搭建
 date: 2014-11-25 16:17:11
-categories: hexo
+categories: 笔记
 tags: [hexo, 博客]
 ---
 

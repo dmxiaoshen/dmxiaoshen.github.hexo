@@ -1,6 +1,6 @@
 title: 英语学习的一些启发
 date: 2014-11-07 20:29:01
-categories: 阅读感悟
+categories: 随写
 tags: [英语]
 ---
 

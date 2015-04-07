@@ -1,6 +1,6 @@
 title: Jquery ValidationEngine验证插件
 date: 2014-12-09 14:17:11
-categories: web
+categories: 笔记
 tags: [jquery, validationEngine]
 ---
 

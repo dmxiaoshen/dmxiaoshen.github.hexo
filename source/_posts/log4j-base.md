@@ -1,6 +1,6 @@
 title: log4j简单使用与配置分析
 date: 2014-11-24 15:14:11
-categories: java
+categories: 笔记
 tags: [log4j, slf4j]
 ---
 

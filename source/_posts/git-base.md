@@ -1,6 +1,6 @@
 title: git/github基础用法
 date: 2014-11-12 10:17:11
-categories: git
+categories: 笔记
 tags: [git]
 ---
 

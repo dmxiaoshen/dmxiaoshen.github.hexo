@@ -1,6 +1,6 @@
 title: git for eclipse
 date: 2014-11-12 14:17:11
-categories: git
+categories: 笔记
 tags: [git]
 ---
 

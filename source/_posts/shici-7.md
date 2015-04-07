@@ -1,6 +1,6 @@
 title: 做一回诗人
 date: 2014-10-31 23:29:01
-categories: 生活随笔
+categories: 随写
 tags: [诗词]
 ---
 

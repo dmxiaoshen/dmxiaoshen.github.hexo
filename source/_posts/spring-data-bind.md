@@ -1,6 +1,6 @@
 title: spring mvc 数据绑定问题
 date: 2014-12-01 10:17:11
-categories: web
+categories: 笔记
 tags: [spring, mvc]
 ---
 

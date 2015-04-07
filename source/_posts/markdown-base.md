@@ -1,6 +1,6 @@
 title: markdown语法总结
 date: 2014-11-01 22:17:11
-categories: hexo
+categories: 笔记
 tags: [markdown]
 ---
 

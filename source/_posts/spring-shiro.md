@@ -1,6 +1,6 @@
 title: spring与shiro整合实现权限控制
 date: 2014-12-07 15:17:11
-categories: web
+categories: 笔记
 tags: [spring, shiro]
 ---
 

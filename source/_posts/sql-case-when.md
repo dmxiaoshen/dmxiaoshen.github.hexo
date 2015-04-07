@@ -1,6 +1,6 @@
 title: SQL中的case when语句
 date: 2015-01-08 15:11:13
-categories: sql
+categories: 笔记
 tags: [sql语句]
 ---
 

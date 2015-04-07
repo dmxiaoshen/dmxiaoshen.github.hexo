@@ -1,6 +1,6 @@
 title: maven核心pom.xml详解
 date: 2014-11-19 19:17:11
-categories: maven
+categories: 笔记
 tags: [maven, pom]
 ---
 

@@ -1,6 +1,6 @@
 title: springMVC控制层Controller那点事
 date: 2014-12-10 10:17:25
-categories: web
+categories: 笔记
 tags: [springMVC]
 ---
 

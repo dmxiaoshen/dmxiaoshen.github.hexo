@@ -1,6 +1,6 @@
 title: Oracle中merge into用法
 date: 2015-01-04 14:17:11
-categories: sql
+categories: 笔记
 tags: [oracle]
 ---
 

@@ -1,6 +1,6 @@
 title: json简单分析
 date: 2014-11-23 20:17:11
-categories: web
+categories: 笔记
 tags: [json]
 ---
 

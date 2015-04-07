@@ -1,6 +1,6 @@
 title: 点点星光闪动着
 date: 2014-08-29 21:49:42
-categories: 生活随笔
+categories: 随写
 tags: 电视剧
 ---
 

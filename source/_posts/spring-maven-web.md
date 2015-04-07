@@ -1,6 +1,6 @@
 title: spring+maven+hibernate的web项目搭建
 date: 2014-11-26 10:17:11
-categories: web
+categories: 笔记
 tags: [spring, 项目]
 ---
 

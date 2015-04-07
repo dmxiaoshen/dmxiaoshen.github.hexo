@@ -1,6 +1,6 @@
 title: shiro实现验证码认证
 date: 2014-12-08 09:17:11
-categories: web
+categories: 笔记
 tags: [shiro]
 ---
 
