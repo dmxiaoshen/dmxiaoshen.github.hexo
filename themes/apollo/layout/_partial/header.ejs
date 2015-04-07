@@ -5,6 +5,7 @@
 	<h1 class="blog-title">
 		<a href="<%- config.root %>"><%= config.title %></a>
 	</h1>
+	<div style="display:inline-block;float:left;margin:15px 20px;font-size:120%;color:#cd3333;font-weight:bolder;"><%= config.subtitle %></div>
 	<nav class="nav">
 		<ul>
 			<% for (var i in theme.menu){ %><li><a href="<%- theme.menu[i] %>"><%= i %></a></li><% } %>
