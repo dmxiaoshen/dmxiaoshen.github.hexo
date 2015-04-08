@@ -8,6 +8,7 @@ tags: [maven, pom]
 
 ##Quick View  
 
+<!--more-->
 ```xml
  <project>
    <modelVersion>4.0.0</modelVersion>
@@ -52,7 +53,6 @@ tags: [maven, pom]
  </project>
 ```  
 
-<!--more-->
 ##groupId,artifactId,version,packaging
 
 其中groupId,artifactId,version,packaging这四项组成了项目的唯一坐标。一般情况下，前面三项就可以组成项目的唯一坐标了。

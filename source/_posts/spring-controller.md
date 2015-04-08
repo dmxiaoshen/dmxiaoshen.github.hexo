@@ -16,6 +16,8 @@ public class LoginController{
 }
 ```
 
+
+<!--more-->
 ##@RequesetMapping
 
 如何生成相应的url映射呢？使用@RequestMapping注解，可以在类上标注也可以在方法上标注，如果都标注了，访问的URL即为类上的加上方法上的。  
@@ -50,7 +52,6 @@ public class LoginController{
 *除了上边提到的注解，还可以通过如HttpServletRequest等API得到请求数据，但推荐使用注解方式，因为使用起来更简单*
 
 以下是列子:  
-<!--more-->
 
 ```java
 @Controller

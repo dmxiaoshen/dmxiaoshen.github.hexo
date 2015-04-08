@@ -12,6 +12,7 @@ tags: [activemq]
 > ActiveMQ的目标是在尽可能多的平台和语言上提供一个标准的，消息驱动的应用集成。ActiveMQ实现JMS规范并在此之上提供大量额外的特性。
 
 ##下载及配置  
+<!--more-->
 
 到官网下载；[ActiveMQ](http://activemq.apache.org/)  
 下载完成解压zip文件，进入bin目录启动activemq.bat便可以启动服务，类似于tomcat。  
@@ -34,7 +35,6 @@ tags: [activemq]
 如果不是maven项目，那就要把所有依赖到的jar包放入lib中，具体哪些jar包可以到网上查找，上面解压的zip文件中的lib目录应该会有所需的jar包。  
 
 ##Spring的配置以及相关类的创建  
-<!--more-->
 
 ```xml
 <!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供 -->

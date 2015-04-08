@@ -11,6 +11,7 @@ tags: [jquery, validationEngine]
 
 ##form表单验证  
 
+<!--more-->
 一般我们用到form标签的时候，都需要对表单进行验证，简单使用如下：  
 
 ```javascript
@@ -40,7 +41,6 @@ $("#formId").validationEngine();
 1. 有一个确认密码输入框，验证规则为跟密码输入框必须输入一致。
 2. 用户名不能重复。  
 
-<!--more-->
 这个时候框架本身没有这种规则，但是我们可以自己写，页面如下:  
 
 ```javascript

@@ -20,7 +20,7 @@ tags: [spring, shiro]
 > Shiro还支持一些辅助特性，如Web应用安全、单元测试和多线程，它们的存在强化了上面提到的四个要素。
 核心概念：Subject，SecurityManager和Realms
 
-
+<!--more-->
 ##shiro的jar包  
 
 如果你的项目是maven管理的，需要配置如下:  
@@ -48,7 +48,6 @@ tags: [spring, shiro]
 </dependency>
 ```  
 
-<!--more-->
 ##web.xml  
 
 配置shiro的过滤器:  

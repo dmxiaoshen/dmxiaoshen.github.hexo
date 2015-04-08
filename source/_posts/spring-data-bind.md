@@ -10,6 +10,7 @@ tags: [spring, mvc]
 
 ##方法一
 
+<!--more-->
 使用@InitBinder。在所需要的controller类中加入如下代码:  
 
 ```java
@@ -90,7 +91,6 @@ public class CustomerConverter implements Converter<String, Date> {
     }
 ```
 
-<!--more-->
 ##对于requestBody或httpEntity中数据的类型转换  
 
 Spring MVC中对于requestBody中发送的数据转换不是通过databind来实现，而是使用HttpMessageConverter来实现具体的类型转换。  

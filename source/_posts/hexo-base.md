@@ -35,7 +35,6 @@ tags: [hexo, 博客]
 npm install -g hexo
 ```
 
-<!--more-->
 ##生成及本地搭建  
 
 安装完成以后，你可以在你喜欢的目录建立hexo文件夹（文件夹名字可任取，这里用hexo）。  

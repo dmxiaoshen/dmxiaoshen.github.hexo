@@ -6,6 +6,7 @@ tags: [log4j, slf4j]
 
 ##log4j.properties  
 
+<!--more-->
 ```properties
 #设置级别和目的地
 log4j.rootLogger=debug,Console,SingleFile,RollingFile,DailyRollingFile
@@ -55,7 +56,6 @@ log4j.logger.jdbc.resultset=OFF
 log4j.logger.jdbc.connection=OFF  
 ```
 
-<!--more-->
 ##几个需要强调的点
 
 Log4j由三个重要的组件构成：**日志信息的优先级**，**日志信息的输出目的地**，**日志信息的输出格式**。  
