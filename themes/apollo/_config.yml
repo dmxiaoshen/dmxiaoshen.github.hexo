@@ -1,9 +1,11 @@
 # Header
 menu:
-  主页: /
-  归档: /archives
+  博客: /
+  阅读: /read
+  电影: /move
 
 menucount: 归档
+homepage: 博客
 comment_provider: duoshuo
 # Duoshuo comment
 duoshuo:

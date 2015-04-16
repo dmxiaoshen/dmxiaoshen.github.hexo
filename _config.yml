@@ -4,26 +4,27 @@
 
 # Site
 title: 在那桃花盛开的地方
-subtitle: 如果要飞得高，就该把地平线忘掉
+subtitle: 爱在爱人所到之处滋长
 description: 在那桃花盛开的地方
 author: dmxiaoshen
-email:
-#language: zh-CN
+email: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -34,6 +35,7 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
+future: true
 highlight:
   enable: true
   line_number: true
@@ -44,23 +46,6 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-# Archives
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
-archive: 0
-category: 0
-tag: 0
-
-# Server
-## Hexo uses Connect as a server
-## You can customize the logger format as defined in
-## http://www.senchalabs.org/connect/logger.html
-port: 4000
-server_ip: localhost
-logger: false
-logger_format: dev
-
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -70,17 +55,14 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 5
+per_page_index: 0
+per_page: 20
 pagination_dir: page
 
-# Disqus
-disqus_shortname:
-
 # Extensions
-## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
-## Themes: https://github.com/hexojs/hexo/wiki/Themes
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
 theme: apollo
-exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

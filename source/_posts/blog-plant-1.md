@@ -1,6 +1,6 @@
 title: 好听的名字，美丽的植物
 date: 2014-08-31 22:52:02
-categories: 图集
+categories: 随写
 tags: [植物, 美图]
 ---
 ##1.泽兰

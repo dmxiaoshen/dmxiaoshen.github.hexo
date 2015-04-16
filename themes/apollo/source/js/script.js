@@ -110,4 +110,49 @@
     $(".nav").toggleClass("active")
   });
 
+  $(".post_index").click(function(){
+	//var url = $(this).find("a")[0];
+	var url = $("a",$(this)).attr("href");
+	window.location.href=url;
+  });
+
+ 
+    var url = window.location.href;
+	var liary = $(".nav li");
+	$.each(liary,function(i,val){		
+		if(url.indexOf('categories')>-1){
+			if($.trim($(val).text())=='笔记'){
+				$(val).addClass("current");
+			}else{
+				$(val).removeClass("current");
+			}
+		}else if(url.indexOf('read')>-1){
+		if($.trim($(val).text())=='阅读'){
+				$(val).addClass("current");
+			}else{
+				$(val).removeClass("current");
+			}
+		}else if(url.indexOf('move')>-1){
+		if($.trim($(val).text())=='电影'){
+				$(val).addClass("current");
+			}else{
+				$(val).removeClass("current");
+			}
+		}else if(url.indexOf('note')>-1){
+		if($.trim($(val).text())=='笔记'){
+				$(val).addClass("current");
+			}else{
+				$(val).removeClass("current");
+			}
+		}else{
+			if($.trim($(val).text())=='博客'){
+				$(val).addClass("current");
+			}else{
+				$(val).removeClass("current");
+			}
+		}
+	});
+
+	
+  
 })(jQuery);

@@ -1,6 +1,6 @@
 title: 假如爱有天意
 date: 2011-11-06 20:17:11
-categories: 图集
+categories: 随写
 tags: [爱有天意]
 ---
 

@@ -47,6 +47,7 @@ Maven能够很方便的帮你管理项目报告，生成站点，管理JAR文件
 `mvn archetype:create -DgroupId=com.dmxs.plms -DartifactId=plms -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveModel=false`  
 这时会生成**plms**项目，该项目就是所需父项目，进入目录删除**src**文件夹，修改**pom.xml**文件.  
 修改pom文件中的 `<packaging>jar</packaging>为 <packaging>pom</packaging>`:  
+
 ```
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -79,6 +80,7 @@ Maven能够很方便的帮你管理项目报告，生成站点，管理JAR文件
 进入plms目录，命令行执行:  
 `mvn archetype:create -DgroupId=com.dmxs.plms -DartifactId=plms-common -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveModel=false`  
 在plms目录中的pom.xml文件中新增:  
+
 ```
 <modules>
  <module>plms-common</module>
@@ -86,9 +88,11 @@ Maven能够很方便的帮你管理项目报告，生成站点，管理JAR文件
 ```  
 
 修改后文件如下:  
+
 ```
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.dmxs.plms</groupId>
@@ -119,8 +123,8 @@ Maven能够很方便的帮你管理项目报告，生成站点，管理JAR文件
 
 修改plms-common下的pom.xml文件，`删除 <groupId>com.dmxs.plms</groupId>和<version>1.0-SNAPSHOT</version>，添加<packaging>jar</packaging>。`    
 修改后的pom文件如下：
+
 ```
-<?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
@@ -151,6 +155,7 @@ Maven能够很方便的帮你管理项目报告，生成站点，管理JAR文件
 大致与plms-common相同，只是maven-archetype-quickstart换成**maven-archetype-webapp**    
 packaging修改为`<packaging>war</packaging>`  
 如需在plms-web中依赖plms-common,则在plms-web中添加:  
+
 ```
 <dependency>
 	<groupId>com.dmxs.plms</groupId>

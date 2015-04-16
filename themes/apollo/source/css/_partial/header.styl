@@ -1,7 +1,9 @@
 #header
   display: block
-  margin: 4em 0
+  margin: 0 0
   position: relative
+  border-bottom: thin solid #00dddd
+  background: #e8fcff
   *zoom: 1
   &:after
     display: block
@@ -14,12 +16,10 @@
 .blog-title
   float: left
   display: inline-block
-  font-size: 140%
-  font-weight: bold
-  padding-bottom: .2em
+  font-size: 105%
+  padding-bottom: 0
   letter-spacing: .2em
   margin: 10px 0
-  border-bottom: 5px solid color-title
   &:hover
     border-color: color-link
     a
@@ -28,7 +28,7 @@
     position: relative
     left: .1em
     padding: .4em 0
-    color: color-title
+    color: #444444
 
 .mobile-nav-panel
   display: none
@@ -41,11 +41,16 @@
     background: url('/images/icon-reorder@2x.png') no-repeat 0 0
     background-size: 18px 17px
 
+.current
+  background: #ffee99
+  
+  	
 .nav
-  margin: 20px 0
-  font-size: 80%
+  margin: 10px 0
+  font-size: 90%
   text-transform: uppercase
   float: right
+  padding-right: 30px
   position: relative
   ul
     display: block
@@ -66,7 +71,6 @@
       vertical-align: middle
 
   a
-    font-weight: bold
     color: color-title
     &:hover
       color: color-link

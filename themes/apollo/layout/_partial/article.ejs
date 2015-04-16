@@ -1,5 +1,5 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="post">
-	<footer class="entry-meta-header">
+	<!--<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
 		</span>
@@ -9,7 +9,7 @@
 				<a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
 			<% } %>
 		</div>
-	</footer>
+	</footer>-->
 	<%- partial('post/gallery') %>
 	<header class="entry-header">
 		<%- partial('post/title', {class_name: 'article-title'}) %>
@@ -26,7 +26,7 @@
     	<%- post.content %>
     <% } %>
 	</div>
-	<footer class="entry-footer">
+	<!--<footer class="entry-footer">
 		<div class="entry-meta-footer">
 			<span class="category">
 				<%- partial('post/category') %>
@@ -35,13 +35,13 @@
 				<%- partial('post/tag') %>
 			</span>
 		</div>
-	</footer>
-	<% if (!index){ %>
+	</footer>-->
+	<% if (!index && false){ %>
     <%- partial('post/nav') %>
   <% } %>
 </article>
 
-<% if (index){ %>
+<% if (index && false){ %>
 	<hr class="article-devider">
 <% } %>
 
