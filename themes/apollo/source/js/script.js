@@ -153,6 +153,12 @@
 		}
 	});
 
-	
+	$(".entry-content h1").attr("style","margin:0;");
+
+	 $(".note-list").click(function(){
+		//var url = $(this).find("a")[0];
+		var url = $("a",$(this)).attr("href");
+		window.location.href=url;
+	  });
   
 })(jQuery);

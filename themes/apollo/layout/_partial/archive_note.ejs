@@ -24,15 +24,15 @@
             <% if (item.title){ %>
               <% if (item.link){ %>
                 <% if (item.title){ %>
-                  <h1 class="title link"><a href="<%- item.link %>" target="_blank"><%= item.title %></a></h1>
+                  <h1 class="title link note-list"><a href="<%- item.link %>" target="_blank"><%= item.title %></a></h1>
                 <% } else { %>
-                  <h1 class="title link"><a href="<%- item.link %>" target="_blank"><%= item.link %></a></h1>
+                  <h1 class="title link note-list"><a href="<%- item.link %>" target="_blank"><%= item.link %></a></h1>
                 <% } %>
               <% } else { %>
-                <h1><a href="<%- config.root %><%- item.path %>"><%= item.title %></a></h1>
+                <h1  class="note-list"><a href="<%- config.root %><%- item.path %>"><%= item.title %></a></h1>
               <% } %>
             <% } else { %>
-                <h1>(No title)</h1>
+                <h1  class="note-list">(No title)</h1>
             <% } %>
           </header>
         </div>
