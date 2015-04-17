@@ -646,7 +646,7 @@ jar包的引进，还有就是环境的选择(dev,production,test)。
 需要在pom.xml同级目录下创建profile.dev.properties，profile.test.properties，profile.production.properties三个文件，其中内容如下，  
 以profile.dev.properties为例：  
 
-```properties
+```java
 log.level=DEBUG
 log.file=F:/dev/examples.log
 

@@ -18,12 +18,12 @@ commit your project to local.
 
 ##Fourth Step  
 cd your project directory and input  
-```
+```bash
  git remote add [alias] [url]
 ```  
 'url' is linked to your github repository.  
 next execute  
-```
+```bash
  git push -f
 ```  
 Finally,you push your project to github.  
