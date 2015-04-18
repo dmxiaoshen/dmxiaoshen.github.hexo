@@ -110,11 +110,11 @@
     $(".nav").toggleClass("active")
   });
 
-  $(".post_index").click(function(){
+  /*$(".post_index").click(function(){
 	//var url = $(this).find("a")[0];
 	var url = $("a",$(this)).attr("href");
 	window.location.href=url;
-  });
+  });*/
 
  
     var url = window.location.href;
@@ -153,10 +153,10 @@
 		}
 	});
 
-	 $(".note-list").click(function(){
+	/* $(".note-list").click(function(){
 		//var url = $(this).find("a")[0];
 		var url = $("a",$(this)).attr("href");
 		window.location.href=url;
-	  });
+	  });*/
   
 })(jQuery);
