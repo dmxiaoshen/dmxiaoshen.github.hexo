@@ -4,7 +4,7 @@ categories: 笔记
 tags: [css]
 ---
 
-![标准盒子模型](http://img.dnbcw.info/2012319/3888710.jpg)  
+![标准盒子模型](http://i1153.photobucket.com/albums/p501/dmxiaoshen/hexo/hzmx_zpsdkg1ltlb.jpg)  
 
 ##盒子模型距离
 
