@@ -114,4 +114,18 @@ hexo deploy
 
 到此，部署完成。浏览器访问**dmxiaoshen.github.io**(dmxiaoshen换成你的账号)就可以访问了.  
 
+##补充
+
+npm install 下载那里如果很慢，可以设置国内镜像，比如淘宝**npm config set registry https://registry.npm.taobao.org**
+
+在Hexo 3.0版本后deploy git 被分开的，所以需要安装，安装命令如下**npm install hexo-deployer-git --save**
+安装好后在尝试一下就ok。此时需要修改**_config.yml**文件为
+```xml
+deploy:
+  type: git
+  repository: https://github.com/dmxiaoshen/dmxiaoshen.github.io.git
+  branch: master
+```
+
+
 **PS**:每次使用命令都要在该hexo文件夹下。每次新增或修改日志，都需先执行hexo generate才能保存。
