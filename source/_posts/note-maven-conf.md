@@ -31,7 +31,8 @@ maven的默认中央仓库：
 ```
 
 如果觉得默认中央仓库很慢，想配置其他远程仓库，比如[开源中国的maven库][1]。  
-修改**setting.xml**文件：  
+修改**setting.xml**文件:
+
 ```xml
  <mirrors>
   <!-- mirror | Specifies a repository mirror site to use instead of a given
@@ -45,9 +46,11 @@ maven的默认中央仓库：
    <url>http://maven.oschina.net/content/groups/public/</url>
  </mirror>
 </mirrors>
-```  
+```
 
-**补充：**如果还需要osc的thirdparty仓库或多个仓库，需要如下修改:  
+
+**补充：**如果还需要osc的thirdparty仓库或多个仓库，需要如下修改:
+
 ```xml
  <mirrors>
   <!-- mirror | Specifies a repository mirror site to use instead of a given
