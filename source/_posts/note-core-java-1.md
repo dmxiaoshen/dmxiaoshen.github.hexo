@@ -34,8 +34,8 @@ tags: [java]
 通俗点讲，冒泡排序就是相邻两数比较，大的放后面，这样一遍下来，**最后的数**就是最大的数，如此往复，直到元素从小到大有序排列。
 
 我们来思考下时间复杂度，假设有n个数：　　
-第一遍，遍历了n个数，共进行了n-1次比较。　　
-第二遍，遍历了n-1个数(最后一个已经排序),共需要n-2次比较。　　
+第1遍，遍历了n个数，共进行了n-1次比较。　　
+第2遍，遍历了n-1个数(最后一个已经排序),共需要n-2次比较。　　
 ……
 第n-1遍，遍历了2个数，仅需1次比较。　　
 最后只剩一个数，无需遍历，它就是最小的。
@@ -95,5 +95,89 @@ public static void selectSort(int[] a){
 
 ##插入排序
 
+插入排序是这样的，假设第一个数是已排序的，后面的数依次跟前面已排序的数比较，直到找到它该有的位置（类似于玩扑克时候的摸牌）。
 
+时间复杂度是：　　
+第1次，取第二个数，与前面1个数比较　　
+第2次，取第三个数，与前面2个数比较　　
+……　　
+第n-1次，取第n个数，与前面n-1个数比较
 
+共需循环取数(n-1)次，共比较(1+2+3+……+n-1)次。复杂度为（n-1)\*(1+2+3+……+n-1),影响最大的项是n^2(系数忽略)。
+
+因此，时间复杂度为**O(n^2)**.
+
+以下是简单实现:
+```java
+public static void insertSort(int[] a){
+	int length = a.length;
+	int temp = 0;
+	int pos = 0;
+
+	for(int i =1;i<length;i++){
+		temp = a[i];
+		pos = i;
+		for(int j=i-1;j>=0;j--){
+			if(a[j]>temp){
+				a[j+1] = a[j];
+				pos = j;
+			}
+		}
+
+		if(pos!=i){
+			a[pos] = temp;
+		}
+	}
+}
+```
+
+##快速排序
+
+简单的说，快速排序就是选一个基数，小于它的数排在它左边，大于它的数排在它右边，这样一遍下来以后，如果以该数的位置做一条竖线，可以划分为左右两部分。左右两边又可以依照刚才的方法分别处理。  
+
+这其实体现了一种分治的思想。因此可以用到递归。
+
+![快速排序](http://photo.hanyu.iciba.com/upload/encyclopedia_2/5e/e2/bk_5ee213ee925122f6aef374cf940c4f95_3Cw3Ah.jpg)
+
+时间复杂度，快速排序算法的时间复杂度依赖于给定的数据，试想一下，如果给定的数据已经是有序的，那么该种情况下二分的意义已经不是很大，n个数几乎分了n次，时间复杂度为**O(n^2)**，这是最糟糕的情况。
+
+但是对于一般的情况，我们认为二分总是有效的。因此，快速排序算法的平均时间复杂度为**O(n lg n)**。
+
+以下是简单实现:
+```java
+public static void quickSort(int[] a,int left,int right){
+	if(left >= right)
+		return;
+
+	int low = left;
+	int high = right;
+	boolean fromRight = true;//先从右边遍历,因为基数选择了左边第一个，确保那个基数原先的位置可以“动”起来
+	int base = a[left];
+
+	while(low<high){
+		if(fromRight){
+			if(a[high]<base){
+				a[low] = a[high];
+				low++;//此处++是为了从左边处理的时候可以少一次++操作，注释掉代码依旧可行
+				fromRight = false;
+			}else{
+				high--;
+			}
+		}else{
+			if(a[low]>base){
+				a[high] = a[low];
+				high--;//此处++是为了从右边处理的时候可以少一次--操作，注释掉代码依旧可行
+				fromRight = true;
+			}else{
+				low++;
+			}
+		}
+	}
+
+	a[low] = base;//此时 low==high
+	quickSort(a,left,low-1);
+	quickSort(a,low+1,right);
+}
+```
+
+以上就是几个简单的排序算法分析，下次如果有机会再分析几种。
