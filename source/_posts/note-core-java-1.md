@@ -166,7 +166,7 @@ public static void quickSort(int[] a,int left,int right){
 		}else{
 			if(a[low]>base){
 				a[high] = a[low];
-				high--;//此处++是为了从右边处理的时候可以少一次--操作，注释掉代码依旧可行
+				high--;//此处--是为了从右边处理的时候可以少一次--操作，注释掉代码依旧可行
 				fromRight = true;
 			}else{
 				low++;
