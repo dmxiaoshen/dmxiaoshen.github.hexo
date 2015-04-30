@@ -13,6 +13,6 @@
 -----------------------------------------------------
 
 ![](http://i1153.photobucket.com/albums/p501/dmxiaoshen/hexo/txwz_zps8e5kyjw5.jpg)
-[Read More >>](../2004/12/06/move-txwz)
+<center>[Read More >>](../2004/12/06/move-txwz)</center>
 
 ------------------------------------------------------
