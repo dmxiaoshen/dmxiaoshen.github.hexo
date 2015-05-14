@@ -127,5 +127,6 @@ deploy:
   branch: master
 ```
 
+用到**git clone**时可能需要添加ssh key，命令为**ssh-keygen -t rsa -C "youremail@youreamil.com"**.
 
 **PS**:每次使用命令都要在该hexo文件夹下。每次新增或修改日志，都需先执行hexo generate才能保存。
